@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    font: 15px Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: #f4f4f4;
+}
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #35424a;
+    border-bottom: #ff4500 4px solid;
+    padding-top: 2em;
+    min-height: 5em;
+}
+header .branding h1 {
+    color: white;
+    float: left;
+    margin: 0;
+}
+header #navbar ul {
+    margin: 0;
+    margin-top: 0.5em;
+    padding: 0;
+    float: right;
+    word-spacing: 3.5vw;
+    font-size: large;
+    text-transform: uppercase;
+}
+header #navbar li {
+    display: inline;
+}
+header #navbar a {
+    color: white;
+    text-decoration: none;
+}
+#navbar a:hover {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+#first {
+    margin: 0;
+    padding: 1.3em;
+    background: #35424a;
+}
+#first .container h2 {
+    float: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+#first .container form {
+    float: right;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+#first button {
+    background: #e8491d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.7em;
+}
+#first input {
+    height: 30px;
+    width: 25vw;
+}
+
+#second {
+    margin: 1% 0 0 0;
+}
+#second .container .artic {
+    float: left;
+    display: block;
+    width: 60%;
+}
+#second .container .artic #dark {
+    background: #35424a;
+    color: white;
+    padding: 2.3em 1.3em 1.3em 1.3em;
+}
+#second .container .sidebar {
+    display: block;
+    float: right;
+    width: 30%;
+    margin-top: 5vh;
+    padding: 1.5%;
+    background: #35424a;
+    color: white;
+}
+
+footer {
+    margin-top: 5%;
+    background: #e8491d;
+    text-align: center;
+    color: white;
+    padding: 2vh;
+}
+
+@media(max-width: 768px) {
+    .container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    border-bottom: #ff4500 4px solid;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    min-height: 5em;
+    text-align: center;
+    line-height: 2;
+}
+header .branding h1 {
+    color: white;
+    float: none;
+    margin: 0;
+}
+header #navbar ul {
+    margin: 0;
+    margin-top: 0.5em;
+    padding: 0;
+    float: none;
+    word-spacing: 3.5vw;
+    font-size: large;
+    text-transform: uppercase;
+}
+header #navbar li {
+    display: inline;
+}
+header h1, a {
+    color: white;
+    text-decoration: none;
+}
+#navbar a:hover {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+#first {
+    margin: 0;
+    padding: 1.3em;
+    background: #35424a;
+    text-align: center;
+}
+#first .container h2 {
+    float: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+#first .container form {
+    float: none;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+#first input {
+    height: 30px;
+    width: 90vw;
+    font-size: medium;
+}
+#first button {
+    background: #e8491d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.7em;
+    padding-left: 4em;
+    padding-right: 4em;
+    width: fit-content;
+    display: inline-block;
+    margin-top: 1%;
+}
+
+#second {
+    margin: 1% 0 0 0;
+    text-align: center;
+}
+#second .container .artic {
+    display: table;
+    margin: 0 auto;
+    float: none;
+    width: 90vw;
+}
+#second .container .artic #dark {
+    background: #35424a;
+    color: white;
+    padding: 2.3em 1.3em 1.3em 1.3em;
+}
+#second .container .sidebar {
+    display: table;
+    margin: 0 auto;
+    float: none;
+    width: 90vw;
+    margin-top: 4rem;
+    padding: 1.5%;
+    background: #35424a;
+    color: white;
+}
+
+}

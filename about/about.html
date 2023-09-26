@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/styles.css" type="text/css" media="all" />
+        <title>Acme Web Design | About</title>
+    </head>
+    
+    <body>
+        <header>
+            <div id="container" class="container">
+                <div class="branding">
+                    <a href="../index.html"> <h1><span style="color: #e8491d;">Acme</span> Web Design</h1></a>
+                </div>
+                <nav id="navbar">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a style="color: #e8491d; font-weight: bold;" href="about.html">About</a></li>
+                        <li><a href="../services/services.html">Services</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <section id="first">
+            <div class="container">
+                <h2>Subscribe To Our Newsletter</h2>
+                <form method="get" accept-charset="utf-8">
+                    <input type="email" placeholder="Enter email..." />
+                    <button type="submit" onclick="subsc()">Subscribe</button>
+                </form>
+                <script type="text/javascript" charset="utf-8">
+                    function subsc() {
+                        window.alert("You have successfully subscribed");
+                    }
+                </script>
+            </div>
+        </section>
+        
+        <section id="second">
+            <div class="container">
+                <article class="artic">
+                    <h3>About Us</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.Sed ut perspiciatis unde
+                        omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                        architecto beatae vitae dicta sunt explicabo. 
+                    </p>
+                    <p id="dark">
+                        Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+                        consectetur, adipisci velit, sed quia non numquam eius modi tempora
+                        incidunt ut labore et dolore magnam aliquam quaerat voluptatem.
+                        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis
+                        suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur ?
+                        Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse
+                        quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo
+                        voluptas nulla pariatur
+                    </p>
+                </article>
+                <aside class="sidebar">
+                    <h3 id="dark">What We Do</h3>
+                    <p id="dark">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                        nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </aside>
+            </div>
+        </section>
+        
+        <footer>
+            <p>
+                Acme Web Design, Copyright &copy; 2021<br>
+                - by Abcd Wxyz
+            </p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles/styles.css" type="text/css" media="all" />
+        <title>Acme Web Design | Services</title>
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <div class="branding">
+                    <a href="../index.html"> <h1><span style="color: #e8491d;">Acme</span> Web Design</h1></a>
+                </div>
+                <nav id="navbar">
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="../about/about.html">About</a></li>
+                        <li><a style="color: #e8491d; font-weight: bold;" href="services.html">Services</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <section id="first">
+            <div class="container">
+                <h2>Subscribe To Our Newsletter</h2>
+                <form method="get" accept-charset="utf-8">
+                    <input type="email" placeholder="Enter email..." />
+                    <button type="submit" onclick="subsc()">Subscribe</button>
+                </form>
+                <script type="text/javascript" charset="utf-8">
+                    function subsc() {
+                        window.alert("You have successfully subscribed");
+                    }
+                </script>
+            </div>
+        </section>
+        
+        <section id="second">
+            <div class="container">
+                <article class="servc">
+                    <h3>Services</h3>
+                    <ul>
+                        <li>
+                            <h3>Website Design</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
+                                <br>incididunt ut labore et dolore magna aliqua.
+                            </p>
+                        </li>
+                        <li>
+                            <h3>Website Maintenance</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
+                                <br>incididunt ut labore et dolore magna aliqua.
+                            </p>
+                        </li>
+                        <li>
+                            <h3>Website Hosting</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor<br>
+                                <br>incididunt ut labore et dolore magna aliqua.
+                            </p>
+                        </li>
+                    </ul>
+                </article>
+                <aside class="sidebar">
+                    <div class="form">
+                        <h3>Get a Quote</h3>
+                        <form class="quote" method="get" accept-charset="utf-8">
+                            <div>
+                                <label for="name">Name</label>
+                                <input type="text" name="name" id="name" placeholder="Enter name..." />
+                            </div>
+                            <div>
+                                <label for="email">E-mail</label>
+                                <input type="email" name="email" id="email" placeholder="Enter email..." />
+                            </div>
+                            <div>
+                                <label for="msg">Message</label>
+                                <textarea name="msg" id="msg" rows="2" cols="20" placeholder="Any message for us..."></textarea>
+                            </div>
+                            <button onclick="quote()">Send</button>
+                            <script type="text/javascript" charset="utf-8">
+                                function quote() {
+                                    window.alert("Quote will be sent to your email id. Thank you!");
+                                }
+                            </script>
+                        </form>
+                    </div>
+                </aside>
+            </div>
+        </section>
+        <footer>
+            <p>
+                Acme Web Design, Copyright &copy; 2021<br>
+                - by Abcd Wxyz
+            </p>
+        </footer>
+    </body>
+</html>

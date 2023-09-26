@@ -1,0 +1,244 @@
+body {
+    font: 15px Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background: #35424a;
+    border-bottom: #ff4500 4px solid;
+    padding-top: 2em;
+    min-height: 5em;
+}
+header .branding h1 {
+    color: white;
+    float: left;
+    margin: 0;
+}
+header #navbar ul {
+    margin: 0;
+    margin-top: 0.5em;
+    padding: 0;
+    float: right;
+    word-spacing: 3.5vw;
+    font-size: large;
+    text-transform: uppercase;
+}
+header #navbar li {
+    display: inline;
+}
+header #navbar a {
+    color: white;
+    text-decoration: none;
+}
+#navbar a:hover {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+#first {
+    padding-top: 3em;
+    padding-bottom: 8em;
+    text-align: center;
+    min-height: 100%;
+    background: url("https://acme-wesbite.netlify.app/images/showcase.jpg") no-repeat -80px -500px;
+}
+#first .container h1 {
+    color: white;
+    font-size: xxx-large;
+}
+#first .container p {
+    color: white;
+    font-size: large;
+}
+
+#second {
+    background: #35424a;
+    padding: 1.1em;
+    min-height: 100%;
+}
+#second .container h2 {
+    float: left;
+    color: white;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+#second .container form {
+    float: right;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+#second button {
+    background: #e8491d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.7em;
+}
+#second input {
+    height: 30px;
+    width: 25vw;
+}
+
+#third {
+    margin-top: 5%;
+}
+#third .container {
+    width: 90vw;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+#third .box {
+    width: 28vw;
+    float: left;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+footer {
+    margin-top: 5%;
+    background: #e8491d;
+    text-align: center;
+    color: white;
+    padding: 2em;
+}
+footer p {
+    display: block;
+
+}
+
+
+@media(max-width: 768px) {
+
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #35424a;
+    border-bottom: #ff4500 4px solid;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    min-height: 5em;
+    text-align: center;
+    line-height: 2;
+}
+header .branding h1 {
+    color: white;
+    float: none;
+    margin: 0;
+}
+header #navbar ul {
+    margin: 0;
+    margin-top: 0.5em;
+    padding: 0;
+    float: none;
+    word-spacing: 3.5vw;
+    font-size: large;
+    text-transform: uppercase;
+}
+header #navbar li {
+    display: inline;
+}
+header h1, a{
+    color: white;
+    text-decoration: none;
+}
+#navbar a:hover {
+    color: #e8491d;
+    font-weight: bold;
+}
+
+#first {
+    padding-top: 3em;
+    padding-bottom: 8em;
+    text-align: center;
+    min-height: 100%;
+    background: url("https://acme-wesbite.netlify.app/images/showcase.jpg") no-repeat  -250px -550px;
+}
+#first .container h1 {
+    color: white;
+    font-size: xxx-large;
+    text-align: center;
+}
+#first .container p {
+    color: white;
+    font-size: large;
+    text-align: center;
+}
+
+#second {
+    background: #35424a;
+    padding: 1em;
+    min-height: 100%;
+    text-align: center;
+}
+#second .container h2 {
+    float: none;
+    color: white;
+    margin-top: 0.1em;
+    margin-bottom: 0.1em;
+}
+#second .container form {
+    float: none;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+#second input {
+    height: 30px;
+    width: 90vw;
+    font-size: medium;
+    display: inline-block;
+}
+#second button {
+    background: #e8491d;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 0.7em;
+    padding-left: 4em;
+    padding-right: 4em;
+    width: fit-content;
+    display: inline-block;
+    margin-top: 1%;
+}
+
+#third {
+    margin-top: 5%;
+    
+}
+#third .container {
+    width: 90vw;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+}
+#third .box {
+    width: 78vw;
+    float: none;
+    display: table;
+    margin: 0 auto;
+}
+
+footer {
+    margin-top: 5%;
+    background: #e8491d;
+    text-align: center;
+    color: white;
+    padding: 2em;
+}
+footer p {
+    display: block;
+    font-size: medium;
+}
+
+}
