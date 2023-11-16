@@ -47,7 +47,8 @@ header #navbar a {
     padding-bottom: 8em;
     text-align: center;
     min-height: 100%;
-    background: url("https://acme-wesbite.netlify.app/images/showcase.jpg") no-repeat -80px -500px;
+    background: url("https://acme-wesbite.netlify.app/images/showcase.jpg") no-repeat;
+    background-size: 100% 100%;
 }
 #first .container h1 {
     color: white;
